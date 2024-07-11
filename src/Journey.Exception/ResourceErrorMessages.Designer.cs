@@ -61,6 +61,24 @@ namespace Journey.Exception {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Activity Not Found.
+        /// </summary>
+        public static string ACTIVITY_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("ACTIVITY_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Date Not Within Travel Period.
+        /// </summary>
+        public static string DATE_NOT_WITHIN_TRAVEL_PERIOD {
+            get {
+                return ResourceManager.GetString("DATE_NOT_WITHIN_TRAVEL_PERIOD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a The date of the trip must be later than today..
         /// </summary>
         public static string DATE_TRIP_MUST_BE_LATER_THAN_TODAY {
